@@ -33,7 +33,7 @@ body {
 }
 
 .container .section:nth-child(2) {
-    background: #e5e5e5;
+    background: white;
     color: #131418;
     text-align: center;
 }
