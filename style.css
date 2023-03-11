@@ -148,25 +148,41 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
-/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container .section2 p {
+        text-align: start;
+        padding: 0%;
+        font-size: 10;
+        font-family: 'Roboto', sans-serif;
+    }
+    .section2 ul {
+        padding-left: 18px;
+    }
+    .section2 ul li {
+        text-align: start;
+        padding: 0%;
+        font-size: 10;
+        font-family: 'Roboto', sans-serif;
+        line-height: 20px;
+    }
+}
 
 @media only screen and (min-width: 600px) {
     .container .section2 p {
         text-align: start;
         padding: 0%;
-        font-size: small;
-        font-weight: bolder;
+        font-size: 11;
+        font-family: 'Roboto', sans-serif;
     }
     .section2 ul {
-        padding-left: 25px;
+        padding-left: 18px;
     }
     .section2 ul li {
         text-align: start;
         padding: 0%;
-        font-size: small;
-        font-weight: bolder;
-        line-height: 25px;
+        font-size: 11;
+        font-family: 'Roboto', sans-serif;
+        line-height: 20px;
     }
 }
 
@@ -174,8 +190,45 @@ body {
     .container .section2 p {
         text-align: start;
         padding: 0%;
+        font-size: 13;
+        font-family: 'Roboto', sans-serif;
+    }
+    .section2 ul {
+        padding-left: 15px;
+    }
+    .section2 ul li {
+        text-align: start;
+        padding: 0%;
+        font-size: 13;
+        font-family: 'Roboto', sans-serif;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container .section2 p {
+        text-align: start;
+        padding: 0%;
+        font-size: large;
+        font-weight: normal;
+    }
+    .section2 ul {
+        padding-left: 25px;
+    }
+    .section2 ul li {
+        text-align: start;
+        padding: 0%;
+        font-size: large;
+        font-weight: normal;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container .section2 p {
+        text-align: start;
+        padding: 0%;
         font-size: x-large;
-        font-weight: bold;
     }
     .section2 ul {
         padding-left: 25px;
@@ -184,7 +237,6 @@ body {
         text-align: start;
         padding: 0%;
         font-size: x-large;
-        font-weight: bold;
         line-height: 35px;
     }
 }
